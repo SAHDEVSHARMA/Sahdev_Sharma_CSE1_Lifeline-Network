@@ -20,18 +20,22 @@
 
 
 ## 📑 Table of Contents
-1. [
-2. [Overview](#overview)  
-3. [Features](#features)  
-   - [Emergency Services (No Login Required)](#emergency-services-no-login-required)  
-   - [Patient Features](#patient-features)  
-   - [Ambulance Driver Features](#ambulance-driver-features)  
-   - [Hospital Features](#hospital-features)  
-4. [Notifications](#notifications)  
-5. [Privacy & Security](#privacy--security)  
-6. [Future Development](#future-development)  
-7. [Support](#support)  
-8. [License](#license)
+- [Overview](#-overview)  
+- [Features](#-features)  
+   - [Emergency Services (No Login Required)](#-emergency-services-no-login-required)  
+   - [Patient Features](#-patient-features)  
+   - [Ambulance Driver Features](#-ambulance-driver-features)  
+   - [Hospital Features](#-hospital-features)  
+- [Notifications](#-notifications)  
+- [Privacy & Security](#-privacy--security)  
+- [Future Development](#-future-development)
+- [Set-Up this Project in your application/machine]   
+- [Tech Stack](#-TechStack)
+- [Development Setup](#-development-setup)
+- [Web Setup](#-web-setup)
+- [Project Structure](#-project-structure) 
+- [Support](#-support)  
+- [License](#-license)
 
 ---
 
@@ -126,7 +130,126 @@ Currently, this application works entirely on the **frontend**, with backend fun
 - Integrate with smartwatch and biometric sensors in the future
 
 
+## Set-Up this Project in your application/machine
 
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19, TypeScript, Vite, Tailwind CSS, Headless UI
+- **Backend**: Node.js, Express, TypeScript
+- **Database**: MongoDB (upcoming)
+- **Authentication**: JWT
+
+
+## 🔧 Development Setup
+
+The project consists of three main components that can be developed separately or together:
+1. **Frontend** - Next.js
+2. **Backend** - Node.js.and other (in future).
+3. **Api Server** - Google Maps API Key
+
+
+### Prerequisites
+
+Before starting, ensure the following tools are installed on the laptop:
+
+1. **Node.js** - (LTS version recommended): Download Node.js(at least)
+
+2. Code Editor:
+
+Install a code editor like Visual Studio Code from VS Code Official Website.
+
+
+## Web setup
+
+#### 1. Clone Repository
+```bash
+git clone https://github.com/harshit-ig/spokify.git
+cd spokify
+```
+
+
+
+
+
+## 📁 Project Structure
+
+```
+updated-life-line-network/
+├── public/                     # Static assets (images, icons, etc.)
+│   ├── favicon.ico
+│   ├── logo.png
+│   └── ...
+├── src/                        # Source code for the entire application
+│   ├── app/                    # Frontend application (Next.js 13+ routing)
+│   │   ├── emergency/          
+│   │   │   ├── nearby-hospitals/
+│   │   │   │   ├── page.tsx          # Nearby Hospitals page component
+│   │   │   │   ├── styles.css        # Page-specific styles (optional)
+│   │   │   │   └── index.test.tsx    # Unit tests for the page
+│   │   ├── layout.tsx          # Root layout for the app
+│   │   ├── globals.css         # Global CSS styles
+│   │   └── page.tsx            # Main entry point (e.g., homepage)
+│   ├── components/             # Reusable UI components
+│   │   ├── Header.tsx          
+│   │   ├── Footer.tsx          
+│   │   ├── HospitalCard.tsx    
+│   │   ├── Map.tsx             
+│   │   └── ...
+│   ├── hooks/                  # Custom React hooks
+│   │   ├── useFetch.ts         
+│   │   ├── useGeolocation.ts   
+│   │   └── ...
+│   ├── lib/                    # Shared utilities
+│   │   ├── api.ts              
+│   │   ├── geoUtils.ts         
+│   │   └── ...
+│   ├── styles/                 
+│   │   ├── variables.css       
+│   │   ├── mixins.css          
+│   │   └── ...
+│   ├── types/                  
+│   │   ├── hospital.ts         
+│   │   └── ...
+│   ├── backend/                # Backend application (Node.js/Express)
+│   │   ├── controllers/        
+│   │   │   ├── hospitalController.ts
+│   │   │   └── userController.ts
+│   │   ├── models/             
+│   │   │   ├── hospitalModel.ts 
+│   │   │   └── userModel.ts     
+│   │   ├── routes/             
+│   │   │   ├── hospitalRoutes.ts 
+│   │   │   └── userRoutes.ts     
+│   │   ├── services/           
+│   │   │   ├── hospitalService.ts 
+│   │   │   └── userService.ts     
+│   │   ├── middlewares/        
+│   │   │   ├── authMiddleware.ts 
+│   │   │   └── errorMiddleware.ts 
+│   │   ├── utils/              
+│   │   │   ├── logger.ts         
+│   │   │   └── ...
+│   │   ├── config/             
+│   │   │   ├── dbConfig.ts       
+│   │   │   ├── envConfig.ts      
+│   │   │   └── serverConfig.ts   
+│   │   ├── app.ts              
+│   │   └── server.ts           
+│   └── tests/                  
+│       ├── components/         
+│       ├── hooks/              
+│       ├── controllers/        
+│       ├── services/           
+│       └── ...
+├── .env                        
+├── .gitignore                  
+├── next.config.js              
+├── package.json                
+├── tsconfig.json               
+├── README.md                   
+└── Dockerfile
+```
 ## 🛠️ Support
 
 For help or to report issues, contact us:
@@ -139,3 +262,4 @@ For help or to report issues, contact us:
 ## 📄 License
 
 This project is currently under development and not licensed for public use yet. Licensing details will be added in future releases.
+
