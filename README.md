@@ -20,17 +20,18 @@
 
 
 ## 📑 Table of Contents
-1. [Overview](#overview)  
-2. [Features](#features)  
+1. [
+2. [Overview](#overview)  
+3. [Features](#features)  
    - [Emergency Services (No Login Required)](#emergency-services-no-login-required)  
    - [Patient Features](#patient-features)  
    - [Ambulance Driver Features](#ambulance-driver-features)  
    - [Hospital Features](#hospital-features)  
-3. [Notifications](#notifications)  
-4. [Privacy & Security](#privacy--security)  
-5. [Future Development](#future-development)  
-6. [Support](#support)  
-7. [License](#license)
+4. [Notifications](#notifications)  
+5. [Privacy & Security](#privacy--security)  
+6. [Future Development](#future-development)  
+7. [Support](#support)  
+8. [License](#license)
 
 ---
 
@@ -101,12 +102,30 @@ Currently, this application works entirely on the **frontend**, with backend fun
 
 ## 🚧 Future Development
 
-- Backend functionality to be integrated
-- Enhanced real-time tracking
-- Secure chat system between users, drivers, and hospitals
-- Admin panel for monitoring system-wide activity
+### 🔙 Backend Expansion
+- Complete backend logic using Node.js/Express or Django
+- Implement database interactions (MongoDB, PostgreSQL, Firebase)
+- Enhance authentication, session handling, and error management
 
----
+
+### 📡 Real-Time Functionality
+- Add WebSocket or Firebase support for:
+- Real-time ambulance tracking
+- Live request status updates
+- Hospital notifications
+    
+### 🔐 Security & Compliance
+- Implement JWT/OAuth2 authentication
+- Encrypt all sensitive data (medical, personal)
+- Ensure GDPR and HIPAA compliance
+
+  
+### 🔗 Third-party & Device Integration
+- Connect with health insurance APIs and national health records
+- Explore IoT devices and wearables for emergency triggers
+- Integrate with smartwatch and biometric sensors in the future
+
+
 
 ## 🛠️ Support
 
