@@ -1,0 +1,9 @@
+{
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/emergency/page": "app/emergency/page.js",
+  "/login/page": "app/login/page.js",
+  "/emergency/nearby-hospitals/page": "app/emergency/nearby-hospitals/page.js",
+  "/driver/login/page": "app/driver/login/page.js",
+  "/emergency/ambulance-requested/page": "app/emergency/ambulance-requested/page.js",
+  "/hospital/login/page": "app/hospital/login/page.js"
+}
