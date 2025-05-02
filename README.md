@@ -164,12 +164,36 @@ Install a code editor like Visual Studio Code from VS Code Official Website.
 
 #### 1. Clone Repository
 ```bash
-git clone https://github.com/harshit-ig/spokify.git
-cd spokify
+[git clone https://github.com/SAHDEVSHARMA/Sahdev_Sharma_CSE1_Lifeline-Network.git)
+cd Sahdev_Sharma_CSE1_Lifeline-Network
 ```
 
-
-
+#### 2. Install Dependencies
+```bash
+npm install
+```
+then 
+```
+npm install --legacy-peer-deps
+```
+if error,occur
+```
+npm audit fix
+    or
+npm audit --force
+```
+then 
+```
+npm run dev
+```
+ensure dev script recoginse your laptop if not then,run
+```
+npm install --save-dev nodemon
+```
+after that,
+```
+npm run dev
+```
 
 
 ## 📁 Project Structure
