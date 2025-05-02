@@ -145,7 +145,7 @@ Currently, this application works entirely on the **frontend**, with backend fun
 
 The project consists of three main components that can be developed separately or together:
 1. **Frontend** - Next.js
-2. **Backend** - Node.js.and other (in future).
+2. **Backend** -  Node.js. is working but other  features like  flask and other requirement .. We impliment in future our project).
 3. **Api Server** - Google Maps API Key
 
 
