@@ -201,80 +201,30 @@ npm run dev
 ## 📁 Project Structure
 
 ```
-updated-life-line-network/
-├── public/                     # Static assets (images, icons, etc.)
-│   ├── favicon.ico
-│   ├── logo.png
-│   └── ...
-├── src/                        # Source code for the entire application
-│   ├── app/                    # Frontend application (Next.js 13+ routing)
-│   │   ├── emergency/          
-│   │   │   ├── nearby-hospitals/
-│   │   │   │   ├── page.tsx          # Nearby Hospitals page component
-│   │   │   │   ├── styles.css        # Page-specific styles (optional)
-│   │   │   │   └── index.test.tsx    # Unit tests for the page
-│   │   ├── layout.tsx          # Root layout for the app
-│   │   ├── globals.css         # Global CSS styles
-│   │   └── page.tsx            # Main entry point (e.g., homepage)
-│   ├── components/             # Reusable UI components
-│   │   ├── Header.tsx          
-│   │   ├── Footer.tsx          
-│   │   ├── HospitalCard.tsx    
-│   │   ├── Map.tsx             
-│   │   └── ...
-│   ├── hooks/                  # Custom React hooks
-│   │   ├── useFetch.ts         
-│   │   ├── useGeolocation.ts   
-│   │   └── ...
-│   ├── lib/                    # Shared utilities
-│   │   ├── api.ts              
-│   │   ├── geoUtils.ts         
-│   │   └── ...
-│   ├── styles/                 
-│   │   ├── variables.css       
-│   │   ├── mixins.css          
-│   │   └── ...
-│   ├── types/                  
-│   │   ├── hospital.ts         
-│   │   └── ...
-│   ├── backend/                # Backend application (Node.js/Express)
-│   │   ├── controllers/        
-│   │   │   ├── hospitalController.ts
-│   │   │   └── userController.ts
-│   │   ├── models/             
-│   │   │   ├── hospitalModel.ts 
-│   │   │   └── userModel.ts     
-│   │   ├── routes/             
-│   │   │   ├── hospitalRoutes.ts 
-│   │   │   └── userRoutes.ts     
-│   │   ├── services/           
-│   │   │   ├── hospitalService.ts 
-│   │   │   └── userService.ts     
-│   │   ├── middlewares/        
-│   │   │   ├── authMiddleware.ts 
-│   │   │   └── errorMiddleware.ts 
-│   │   ├── utils/              
-│   │   │   ├── logger.ts         
-│   │   │   └── ...
-│   │   ├── config/             
-│   │   │   ├── dbConfig.ts       
-│   │   │   ├── envConfig.ts      
-│   │   │   └── serverConfig.ts   
-│   │   ├── app.ts              
-│   │   └── server.ts           
-│   └── tests/                  
-│       ├── components/         
-│       ├── hooks/              
-│       ├── controllers/        
-│       ├── services/           
-│       └── ...
-├── .env                        
-├── .gitignore                  
-├── next.config.js              
-├── package.json                
-├── tsconfig.json               
-├── README.md                   
-└── Dockerfile
+updated-life-line-capital/
+├── .next/                     # Next.js build output
+│   ├── cache/
+│   ├── server/
+│   ├── static/
+│   ├── types/
+│   ├── app-build-manifest.json
+│   ├── build-manifest.json
+│   ├── react-loadable-manifest.json
+│   └── trace/
+├── migrations/                # Database migrations
+│   └── 0001_initial.sql
+├── src/                       # Source code for the application
+├── .gitignore                 # Git ignore file
+├── DEPLOYMENT.md              # Deployment instructions
+├── next-env.d.ts              # Next.js environment type definitions
+├── package.json               # Node.js dependencies and scripts
+├── package-lock.json          # Lock file for dependencies
+├── postcss.config.js          # PostCSS configuration
+├── tailwind.config.js         # Tailwind CSS configuration
+├── tsconfig.json              # TypeScript configuration
+├── USER_GUIDE.md              # User guide documentation
+└── wrangler.toml              # Configuration for Cloudflare Workers
+
 ```
 ## 🛠️ Support
 
