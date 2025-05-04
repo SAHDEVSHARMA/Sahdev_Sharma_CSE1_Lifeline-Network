@@ -13,6 +13,8 @@
 ## Video Explanation
 - (-https://drive.google.com/file/d/1j0I3DK3wBKWBeMTDuZ4-Y-AD9_4r2pru/view?usp=drivesdk)
 
+## Presentation file
+- (https://drive.google.com/file/d/1jh2dmDtuYGLJO1eVV5KeMk5Odl9GNxej/view?usp=drivesdk)
 
 ## Project Report
 - (https://drive.google.com/file/d/1jOrOcSE7KfaYjLcpuK5EpNi-o4jwTPJd/view?usp=drivesdk)
