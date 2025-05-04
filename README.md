@@ -1,7 +1,8 @@
 # Life Line Network - Emergency Based platform.
 
 ## Team Members
--Sahdev Sharma(2401010092)
+
+- Sahdev Sharma(2401010092)
 - Deepak(2401010085)
 - Devansh Jain(2401010167)
 - Tanmay Dixit(2401010120)
