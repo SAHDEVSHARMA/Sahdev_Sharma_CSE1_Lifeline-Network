@@ -11,13 +11,13 @@
 - Emergency Medical Service app based web — a smart and life-saving platform designed to connect patients, ambulance drivers, and hospitals during medical emergencies.
 
 ## Video Explanation
-- (-https://drive.google.com/file/d/1j0I3DK3wBKWBeMTDuZ4-Y-AD9_4r2pru/view?usp=drivesdk)
+(https://drive.google.com/file/d/1j0I3DK3wBKWBeMTDuZ4-Y-AD9_4r2pru/view?usp=drivesdk)
 
 ## Presentation file
-- (https://drive.google.com/file/d/1jh2dmDtuYGLJO1eVV5KeMk5Odl9GNxej/view?usp=drivesdk)
+(https://drive.google.com/file/d/1jh2dmDtuYGLJO1eVV5KeMk5Odl9GNxej/view?usp=drivesdk)
 
 ## Project Report
-- (https://drive.google.com/file/d/1jOrOcSE7KfaYjLcpuK5EpNi-o4jwTPJd/view?usp=drivesdk)
+(https://drive.google.com/file/d/1k2wd2pHZMCejVkHlSwojCrHgOb2SevhE/view?usp=drivesdk)
 
 
 
