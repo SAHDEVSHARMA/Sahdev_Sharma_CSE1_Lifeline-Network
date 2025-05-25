@@ -1,31 +1,27 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Link from 'next/link';
 
-
-
-export default function AmbulanceRequestedPage({
-  searchParams,
+export default function AmbulanceRequestedClient({
+  lat,
+  lng,
 }: {
-  searchParams: { lat: string; lng: string };
+  lat: string;
+  lng: string;
 }) {
   const router = useRouter();
   const [isWaiting, setIsWaiting] = useState(true);
   const [ambulanceAssigned, setAmbulanceAssigned] = useState(false);
-  const { lat, lng } = searchParams;
 
-  // In a real app, this would use WebSockets to get real-time updates
-  // For demo purposes, we'll simulate an ambulance being assigned after 5 seconds
-  useState(() => {
+  useEffect(() => {
     const timer = setTimeout(() => {
       setIsWaiting(false);
       setAmbulanceAssigned(true);
     }, 5000);
 
     return () => clearTimeout(timer);
-  });
+  }, []);
 
   return (
     <div className="min-h-screen bg-red-50 flex flex-col items-center justify-center p-4">
@@ -79,7 +75,7 @@ export default function AmbulanceRequestedPage({
               alternative transportation to the nearest hospital.
             </p>
             <button
-              onClick={() => router.push('/emergency/nearby-hospitals?lat=' + lat + '&lng=' + lng)}
+              onClick={() => router.push(`/emergency/nearby-hospitals?lat=${lat}&lng=${lng}`)}
               className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-md transition duration-300"
             >
               Find Nearest Hospital
